@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('https://storage.googleapis.com/dqlab-dataset/data_retail.csv', sep=';')
+df = pd.read_csv('data_retail.csv', sep=';')
 
 # melihat 5 baris teratas dari data.
 print('Lima data teratas:')
